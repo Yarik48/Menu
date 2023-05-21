@@ -1,0 +1,56 @@
+.add-post-btn{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding:15px 15px 5px 15px;
+    position: fixed;
+    z-index:20;
+    width:100%;
+    transition: top 0.3s;
+}
+
+.bottom-menu{
+    position: fixed;
+    background: white;
+    z-index:20;
+    width: 100%;
+    bottom:0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 8px;
+    border-radius: 23px;
+  }
+
+.menu-item{
+    text-align: center;
+    font-size: 16px
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (min-width: 768px) {
+       .header{
+           justify-content: space-around;
+           padding: 5px 0px 3px 0px
+       }
+
+       .menu{
+            width: 50%;
+            margin: 0 auto;
+       }
+}
